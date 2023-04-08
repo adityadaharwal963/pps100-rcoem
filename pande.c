@@ -5,7 +5,7 @@ void swap(int *x,int *y){
     *y=t;                 // swap address x and y
 }
 int main(){
-    int *a,coun,*temp,i1=0;
+    int a[100],coun,*temp,i1=0;
     printf("enter element in array and -1 to exit.\n");
 //////////////////////////////////////////
      do
